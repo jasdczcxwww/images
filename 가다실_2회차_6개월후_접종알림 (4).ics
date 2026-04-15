@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Gardasil//Vaccination Reminder//KR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:가다실 접종 알림
+X-WR-TIMEZONE:Asia/Seoul
+BEGIN:VEVENT
+UID:35c80231-96a8-4a62-aac9-f5add6fcc1a2
+DTSTAMP:20260415T070800Z
+DTSTART;TZID=Asia/Seoul:20261015T090000
+DTEND;TZID=Asia/Seoul:20261015T093000
+SUMMARY:가다실 2회차 접종일
+DESCRIPTION:가다실 백신 2회차 접종 예정일입니다.\n\n💉 접종 회차: 2회차 (마지막)\n📅 접종 시기: 1회차로부터 6개월 후\n⏰ 예약 시간: 오전 9시\n⏱️ 소요 시간: 약 30분\n\n병원 예약을 미리 확인하시고 방문해 주세요.
+LOCATION:병원 (예약 확인 필요)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT10M
+DESCRIPTION:10분 후 가다실 2회차 접종 예정입니다 (오전 9시). 준비해 주세요.
+END:VALARM
+END:VEVENT
+END:VCALENDAR
